@@ -1,0 +1,32 @@
+{
+  "name": "modal-component-kle",
+  "version": "0.6.1",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "module": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kilian06/Modal-React-NPM"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "clean": "rm -rf dist coverage",
+    "clean:fix": "rm -rf node_modules coverage build dist docs package-lock.json"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "babel-preset-react-app": "^10.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
