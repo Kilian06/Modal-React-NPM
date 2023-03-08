@@ -21,7 +21,7 @@ Utilisation
 
 Pour utiliser ce package, vous devez d'abord importer le composant Modal depuis le package :
 
-    import Modal from 'react-modal-simplifier';
+    import {Modal} from "modal-component-kle";
     
 
 Ensuite, vous pouvez utiliser le composant Modal dans votre application React :
